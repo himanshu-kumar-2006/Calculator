@@ -1,0 +1,101 @@
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Google Sans", sans-serif;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #0a0a0a, #3a4452);
+        }
+
+        .calculator {
+            width: 380px;
+            padding: 20px;
+            border: 1px solid #717377;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            box-shadow: 0 3px 25px rgba(113, 115, 119, 0.5);
+        }
+
+        #inputbox {
+            width: 100%;
+            height: 100px;
+            border: none;
+            outline: none;
+            padding: 20px;
+            margin-bottom: 15px;
+            background: transparent;
+            color: #ffffff;
+            font-size: 40px;
+            text-align: right;
+            box-shadow: 0 3px 15px rgba(84, 84, 84, 0.1);
+        }
+
+        #inputbox::placeholder {
+            color: #ffffff;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            border: none;
+            width: 65px;
+            height: 65px;
+            margin: 7px;
+            border-radius: 50%;
+            background: transparent;
+            color: #ffffff;
+            font-size: 20px;
+            box-shadow: -8px -8px 15px rgba(225, 225, 255, 0.1);
+            cursor: pointer;
+            transition: 0.15s;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        button:active {
+            transform: scale(0.92);
+        }
+
+        .operator {
+            color: #ffd27d;
+        }
+
+        .equal {
+            background-color: #fb7c14;
+            color: white;
+        }
+
+        .equal:hover {
+            background-color: #ff8d2d;
+        }
+
+        @media (max-width: 450px) {
+            .calculator {
+                width: 95%;
+                padding: 15px;
+            }
+
+            button {
+                width: 58px;
+                height: 58px;
+                margin: 5px;
+            }
+
+            #inputbox {
+                font-size: 32px;
+            }
+        }
