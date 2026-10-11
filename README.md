@@ -6,7 +6,7 @@ A simple calculator project built using HTML, CSS, and JavaScript.
 
 - Basic arithmetic operations
 - Simple user interface
-- Responsive styling (if implemented)
+- Responsive styling
 
 ## Technologies Used
 
