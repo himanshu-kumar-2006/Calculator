@@ -14,6 +14,9 @@ A simple calculator project built using HTML, CSS, and JavaScript.
 - CSS3
 - JavaScript
 
+## Preview
+![Calculator-Preview](Screenshot/Preview.png)
+
 ## How to Run
 
 1. Clone or download this repository.
